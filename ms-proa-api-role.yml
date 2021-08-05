@@ -1,0 +1,6 @@
+server:
+  port: 8084
+application:
+  id: ROLE
+  moduleOperation:
+   session: /role
