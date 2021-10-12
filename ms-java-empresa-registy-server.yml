@@ -1,0 +1,11 @@
+server:
+  port: 8099
+  
+eureka:
+  instance:
+    hostname: localhost
+  client:
+  #No se regsitre eureka server dentro de eureka
+    register-with-eureka: false
+    fetch-registry: false
+    service-url: http://${eureka.instance.hostname}:${server.port}/eureka
