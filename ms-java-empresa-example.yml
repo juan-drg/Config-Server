@@ -1,0 +1,6 @@
+server:
+  port: 8087
+application:
+  id: EMPRESA
+  moduleOperation:
+   session: /empresa
